@@ -5,7 +5,6 @@ from collections import namedtuple
 InvoiceItem = namedtuple('InvoiceItem', 'name quantity unit_price \
                              total_price description')
 
-
 class Invoice(Payment):
     """Payment invoice"""
 
